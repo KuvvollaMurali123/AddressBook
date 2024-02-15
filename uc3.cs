@@ -47,3 +47,11 @@ class AddressBook
             Console.WriteLine("Contact not found.");
         }
     }
+    public void DisplayContacts()
+    {
+        foreach (Contact contact in contacts)
+        {
+            Console.WriteLine(contact);
+        }
+    }
+}
